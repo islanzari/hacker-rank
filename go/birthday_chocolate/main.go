@@ -16,22 +16,21 @@ func solve(s []int32, d int32, m int32) int32 {
 	var countD int32
 
 	for i := 0; i < len(s); i++ {
-		for j := 0; j < len(s); j++ {
-			count++
-
-			sum += s[i]
-			if m == count {
-
-				if sum == d {
-					countD++
-
-				}
-				count = 1
-				sum = s[j]
+		//	fmt.Println(i)
+		count++
+		sum += s[i]
+		if m == count {
+			if sum == d {
+				countD++
+				sum = 0
+				count = 0
 			}
+			i = i - (int(m) - 1)
+			count = 0
+			sum = 0
+			//fmt.Println(i)
 
 		}
-		sum = s[i]
 
 	}
 	return countD
@@ -40,12 +39,12 @@ func solve(s []int32, d int32, m int32) int32 {
 func main() {
 	reader := bufio.NewReaderSize(os.Stdin, 1024*1024)
 
-	stdout, err := os.Create(os.Getenv("OUTPUT_PATH"))
-	checkError(err)
+	//stdout, err := os.Create(os.Getenv("OUTPUT_PATH"))
+	//checkError(err)
 
-	defer stdout.Close()
+	//defer stdout.Close()
 
-	writer := bufio.NewWriterSize(stdout, 1024*1024)
+	writer := bufio.NewWriterSize(os.Stdout, 1024*1024)
 
 	nTemp, err := strconv.ParseInt(readLine(reader), 10, 64)
 	checkError(err)

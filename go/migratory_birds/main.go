@@ -12,23 +12,31 @@ import (
 // Complete the migratoryBirds function below.
 func migratoryBirds(ar []int32) int32 {
 	var fin int32
-	var zmi int64
-	most := make([]int64, 5)
+	var zmi int32
+	most := make([]int32, 5)
 	for i := 0; i < len(ar); i++ {
 
-		for j := 1; j < len(most)+1; j++ {
+		switch {
+		case ar[i] == 1:
+			most[0]++
+		case ar[i] == 2:
+			most[1]++
+		case ar[i] == 3:
+			most[2]++
+		case ar[i] == 4:
+			most[3]++
+		case ar[i] == 5:
+			most[4]++
+		}
 
-			if ar[i] == int32(j) {
-				most[j]++
-
-			}
-
-			if most[j] > zmi {
-				zmi = most[j]
-				fin = int32(j)
-			}
+	}
+	for j := 0; j < len(most); j++ {
+		if most[j] > zmi {
+			zmi = most[j]
+			fin = int32(j + 1)
 		}
 	}
+
 	return fin
 
 }
