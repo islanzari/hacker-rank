@@ -9,12 +9,13 @@ import (
 	"strings"
 )
 
-
 func searchMatrixforCordinate(n []int) {
 
 	for i := 1; i < len(n)-1; i++ {
 		for j := 1; j < len(n)-1; j++ {
-				if n[i-1][j] !=0 && n[i+1][j] !=0 && n[i][j-1] != 0 && n[i][j+1]
+			if n[i-1][j] != 0 && n[i+1][j] != 0 && n[i][j-1] != 0 && n[i][j+1] != 0 {
+
+			}
 		}
 	}
 }
