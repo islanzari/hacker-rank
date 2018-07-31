@@ -11,7 +11,7 @@
   
 5.[Beautiful Days at the Movies](https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem)- [link do rozwiazania](https://github.com/islanzari/hacker-rank/blob/master/go/beautiful%20_days_at_the_movies/main.go)
    
-6.[birthday_cake_candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem) - [link do rozwiazania](https://github.com/islanzari/hacker-rank/blob/master/go/birthday_cake_candles/main.go)
+6.[birthday cake candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem) - [link do rozwiazania](https://github.com/islanzari/hacker-rank/blob/master/go/birthday_cake_candles/main.go)
 
 7.[Birthday Chocolate](https://www.hackerrank.com/challenges/the-birthday-bar/problem)- [link do rozwiazania](https://github.com/islanzari/hacker-rank/blob/master/go/birthday_chocolate/main.go)
 
