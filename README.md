@@ -19,7 +19,7 @@
 
 9.[Cats and a Mouse](https://www.hackerrank.com/challenges/cats-and-a-mouse/problem)- [link do rozwiazania](https://github.com/islanzari/hacker-rank/blob/master/go/cats_and_a_mouse/main.go)
 
-10.[Circular Array Rotation](https://www.hackerrank.com/challenges/circular-array-rotation/problem?h_r=internal-search)- [link do rozwiazania](https://github.com/islanzari/hacker-rank/blob/master/go/circular_array_rotation/main.go) to zadanko jest nie skonczone
+10.[Circular Array Rotation](https://www.hackerrank.com/challenges/circular-array-rotation/problem?h_r=internal-search)- [link do rozwiazania](https://github.com/islanzari/hacker-rank/blob/master/go/circular_array_rotation/main.go) to zadanko jest nieskonczone
 
 11.[Compare the Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem?h_r=internal-search)- [link do rozwiazania](https://github.com/islanzari/hacker-rank/blob/master/go/compare_the_triplets/main.go)
 
@@ -37,7 +37,7 @@
 
 18.[Grading Students](https://www.hackerrank.com/challenges/grading/problem?h_r=internal-search)- [link do rozwiazania](https://github.com/islanzari/hacker-rank/blob/master/go/grading_students/main.go)
 
-19.[Jesse and Cookies](https://www.hackerrank.com/challenges/jesse-and-cookies/problem?h_r=internal-search)- [link do rozwiazania](https://github.com/islanzari/hacker-rank/blob/master/go/jesse_and_cookies_not_finish/main.go) to zadanko jest  nie skonczone
+19.[Jesse and Cookies](https://www.hackerrank.com/challenges/jesse-and-cookies/problem?h_r=internal-search)- [link do rozwiazania](https://github.com/islanzari/hacker-rank/blob/master/go/jesse_and_cookies_not_finish/main.go) to zadanko jest  nieskonczone
 
 20.[Kangaroo](https://www.hackerrank.com/challenges/kangaroo/problem?h_r=internal-search)- [link do rozwiazania](https://github.com/islanzari/hacker-rank/blob/master/go/Kangaroo/main.go)
 
