@@ -4,21 +4,11 @@ import (
 	"bufio"
 	"fmt"
 	"io"
+	"math"
 	"os"
 	"strconv"
 	"strings"
 )
-
-func max(slice []int32) int32 {
-	var max int32 = -100
-	for _, v := range slice {
-		if v > max {
-			max = v
-		}
-
-	}
-	return max
-}
 
 func sum(arr [][]int32, i int, j int) int32 {
 	var hourglass int32
@@ -30,16 +20,18 @@ func sum(arr [][]int32, i int, j int) int32 {
 
 // Complete the hourglassSum function below.
 func hourglassSum(arr [][]int32) int32 {
-	matrix := []int32{}
 
+	var max int32 = math.MinInt32
 	for i := 1; i <= len(arr)-2; i++ {
 		for j := 1; j <= len(arr)-2; j++ {
-			matrix = append(matrix, sum(arr, i, j))
+			if currSum := sum(arr, i, j); currSum > max {
+				max = currSum
+			}
 
 		}
 	}
 
-	return max(matrix)
+	return max
 }
 
 func main() {
