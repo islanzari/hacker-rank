@@ -1,13 +1,13 @@
 
 \◕_◕/ ---- *HACKER RANK* ---- \◕_◕/
 
-1.[2D_array_ds]( https://www.hackerrank.com/challenges/2d-array/problem?h_r=internal-search)  - [link do rozwiazania](https://github.com/islanzari/hacker-rank/blob/master/go/2D_array_%20ds/main.go)
+1.[2D array ds]( https://www.hackerrank.com/challenges/2d-array/problem?h_r=internal-search)  - [link do rozwiazania](https://github.com/islanzari/hacker-rank/blob/master/go/2D_array_%20ds/main.go)
 
-2.[angry_professor](https://www.hackerrank.com/challenges/angry-professor/problem?h_r=internal-search ) - [link do rozwiazania](https://github.com/islanzari/hacker-rank/blob/master/go/angry_professor/main.go)
+2.[angry professor](https://www.hackerrank.com/challenges/angry-professor/problem?h_r=internal-search ) - [link do rozwiazania](https://github.com/islanzari/hacker-rank/blob/master/go/angry_professor/main.go)
 
-3.[apple_and_orange](https://www.hackerrank.com/challenges/apple-and-orange/problem?h_r=internal-search) - [link do rozwiazania](https://github.com/islanzari/hacker-rank/blob/master/go/apple_and_orange/main.go)
+3.[apple and orange](https://www.hackerrank.com/challenges/apple-and-orange/problem?h_r=internal-search) - [link do rozwiazania](https://github.com/islanzari/hacker-rank/blob/master/go/apple_and_orange/main.go)
  
-4.[Arrays-Ds](https://www.hackerrank.com/challenges/arrays-ds/problem) - [link do rozwiazania](https://github.com/islanzari/hacker-rank/blob/master/go/arrays_ds/main.go)
+4.[Arrays Ds](https://www.hackerrank.com/challenges/arrays-ds/problem) - [link do rozwiazania](https://github.com/islanzari/hacker-rank/blob/master/go/arrays_ds/main.go)
   
 5.[Beautiful Days at the Movies](https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem)- [link do rozwiazania](https://github.com/islanzari/hacker-rank/blob/master/go/beautiful%20_days_at_the_movies/main.go)
    
